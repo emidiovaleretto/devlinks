@@ -35,9 +35,9 @@ main {
 }
 
 .container {
-  max-width: 36rem;
+  max-width: 48rem;
   margin: 0 auto;
-  background: url("/assets/img/bg-light.png"), lightgray 50% / cover no-repeat;
+  background: url("/assets/img/bg-light.png") no-repeat center center/cover;
   height: 100vh;
   position: relative;
 }
