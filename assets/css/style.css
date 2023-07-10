@@ -80,17 +80,17 @@ main {
 .toggle-switch-circle {
   position: absolute;
   top: 0.2rem;
-  right: 0.4rem;
+  left: 0.4rem;
   width: 50%;
   height: 2rem;
   border-radius: 6rem;
-  background-color: #f7f7f7;
+  background-color: #6c2e82;
   box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
 }
 .toggle-switch-active {
-  background-color: #6c2e82;
-  transform: translateX(-2.4rem);
+  background-color: #f7f7f7;
+  transform: translateX(2.4rem);
   transition: background-color 0.2s ease 0s, transform 0.2s ease 0s;
 }
 .dark-mode {

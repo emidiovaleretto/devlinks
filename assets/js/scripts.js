@@ -1,14 +1,14 @@
-const container = document.querySelector('.container')
+const body = document.querySelector('body')
 const toggleSwitch = document.querySelector('.toggle-switch-circle')
 
 toggleSwitch.onclick = () => {
   toggleSwitch.classList.toggle('toggle-switch-active')
 
-  if (!toggleSwitch.classList.contains('toggle-switch-active')) {
-    container.classList.remove('dark-mode')
-    container.classList.add('light-mode')
+  if (toggleSwitch.classList.contains('toggle-switch-active')) {
+    body.classList.remove('dark-mode')
+    body.classList.add('light-mode')
   } else {
-    container.classList.add('dark-mode')
-    container.classList.remove('light-mode')
+    body.classList.add('dark-mode')
+    body.classList.remove('light-mode')
   }
 }
