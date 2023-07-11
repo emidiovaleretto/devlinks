@@ -4,11 +4,11 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  box-sizing: border-box;
 }
 img {
   display: block;
@@ -73,7 +73,7 @@ main {
   margin-bottom: 2.4rem;
   border-radius: 1.6rem;
   background-color: #6369b8;
-  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
@@ -84,7 +84,7 @@ main {
   width: 50%;
   height: 2rem;
   border-radius: 6rem;
-  background-color: #6c2e82;
+  background-color: #9b9bc4;
   box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
 }
@@ -109,8 +109,7 @@ main {
   transition: background-color 0.2s ease 0s, color 0.2s ease 0s;
 }
 .dark-mode .toggle-switch {
-  background: #323238;
-  box-shadow: 0.1rem 0.1rem 0.3rem rgba(255, 255, 255, 0.2);
+  background: #0d0d26;
 }
 .light-mode {
   background: url('/assets/img/bg-light.png') no-repeat center center/cover;
@@ -202,6 +201,7 @@ main {
   }
   .container {
     max-width: 100vw;
+    border: 1px solid transparent;
   }
   body::after {
     content: '';
@@ -228,10 +228,8 @@ main {
     overflow: hidden;
   }
   .toggle-switch {
-    position: relative;
-    top: 0;
-    right: 0;
-    margin-bottom: 3.2rem;
+    top: 1.6rem;
+    right: 1.6rem;
   }
   .links-container li {
     width: 38.4rem;
