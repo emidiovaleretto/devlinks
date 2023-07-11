@@ -22,12 +22,6 @@ a {
 ul {
   list-style: none;
 }
-.container {
-  max-width: 48rem;
-  margin: 0 auto;
-  min-height: 100vh;
-  position: relative;
-}
 main {
   display: flex;
   flex-direction: column;
@@ -116,6 +110,10 @@ main {
   color: #323238;
   transition: background 0.2s ease 0s, color 0.2s ease 0s;
 }
+.links-container {
+  width: 100%;
+  padding: 0 1.6rem;
+}
 .links-container ul {
   display: flex;
   flex-direction: column;
@@ -125,7 +123,7 @@ main {
 .links-container li {
   display: flex;
   justify-content: center;
-  width: 26.4rem;
+  width: 100%;
   padding: 1.6rem 2.4rem;
   font-size: 1.4rem;
   line-height: 2.4rem;
@@ -232,7 +230,7 @@ main {
     right: 1.6rem;
   }
   .links-container li {
-    width: 38.4rem;
+    width: 40rem;
   }
 }
 @media (min-width: 1200px) {
