@@ -8,7 +8,7 @@
 
 <h3 align="center">You are in the repositiry of my personal page</h3>
 
-![Screenshot](https://i.imgur.com/Igl8Iv9.jpg)
+![Screenshot](https://i.imgur.com/WEScDFB.jpg)
 
 <div align="center">
   Check out my live page <a href="https://emidiovaleretto.dev" target="_blank" rel="noopener noreferrer">here</a>.
