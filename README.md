@@ -8,7 +8,8 @@
 
 <h3 align="center">You are in the repositiry of my personal page</h3>
 
-![Screenshot](https://i.imgur.com/WEScDFB.jpg)
+![Dark Mode](https://i.imgur.com/MIec5yg.png)
+![Light Mode](https://i.imgur.com/5RMCrvP.png)
 
 <div align="center">
   Check out my live page <a href="https://emidiovaleretto.dev" target="_blank" rel="noopener noreferrer">here</a>.
