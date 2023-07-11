@@ -103,7 +103,7 @@ main {
   transition: background-color 0.2s ease 0s, color 0.2s ease 0s;
 }
 .dark-mode .toggle-switch {
-  background: #0d0d26;
+  background: #6c2e82;
 }
 .light-mode {
   background: url('/assets/img/bg-light.png') no-repeat center center/cover;
@@ -228,6 +228,9 @@ main {
   .toggle-switch {
     top: 1.6rem;
     right: 1.6rem;
+  }
+  .dark-mode .toggle-switch {
+    background: #0d0d26;
   }
   .links-container li {
     width: 40rem;
